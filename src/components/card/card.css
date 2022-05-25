@@ -1,0 +1,11 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted teal;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    height: 600px;
+}
