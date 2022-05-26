@@ -10,6 +10,7 @@ import Socials from '../socials/Socials';
 export const Navbar = () => {
   return (
     <nav>
+      <Socials/>
       
           <ul className='list'>
               <li>
