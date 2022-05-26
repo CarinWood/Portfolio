@@ -4,11 +4,17 @@
     height: 200vh;
     margin-top: 0px;
     padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     border: 2px solid pink;
 }
 
 .contact-headline {
-    color: white;
-    padding-top: 100px;
-    margin-top: 0px;
+    color: var(--primary-color);
+    font-size: 110px;
+    font-family: 'corinthia';
+    letter-spacing: 3px;
+    padding-top: 80px;
 }

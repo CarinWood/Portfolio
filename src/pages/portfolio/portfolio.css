@@ -2,10 +2,21 @@
     width: 100%;
     height: 200vh;
     background:linear-gradient(to right, black,  #13151f,  var(--secondary-color));
-    padding-top: 200px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px solid goldenrod;
+}
+
+.portfolio-headline {
+    color: white;
+    padding-top: 100px;
+    margin-top: 0px;
+    padding-top: 160px;
+    letter-spacing: 1px;
 }
 
 .first-row {

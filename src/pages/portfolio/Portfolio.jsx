@@ -13,7 +13,7 @@ function cardSwitch() {
 
   return (
     <div className='projects-container' id="portfolio">
-      
+        <h1 className='portfolio-headline'>Portfolio</h1>
         <section className='first-row'>
               <div className='box' onClick={cardSwitch}>Todo-list</div>
               <div className='box'>Fashion Store</div>

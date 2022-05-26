@@ -1,5 +1,6 @@
 import './navbar.css';
 import { Link } from 'react-scroll'
+import Socials from '../socials/Socials';
 
 
 
@@ -48,6 +49,8 @@ export const Navbar = () => {
                 > Contact </Link>
                 </li>                       
            </ul> 
+
+        
 
     </nav>
   )

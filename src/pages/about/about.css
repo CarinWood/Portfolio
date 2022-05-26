@@ -22,8 +22,8 @@
 .about-headline {
     color: var(--primary-color);
     font-family: 'corinthia';
-    font-size: 140px;
-    letter-spacing: 2px;
+    font-size: 110px;
+    letter-spacing: 3px;
     margin-left: 400px;
     margin-top: 150px;
 }

@@ -1,0 +1,22 @@
+.socials-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.linkedin {
+    margin-left: 30px;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.youtube {
+    margin-left: 30px;
+    font-size: 20px;
+    color: goldenrod;
+}
