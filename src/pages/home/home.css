@@ -21,13 +21,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
 }
 
 .header-box {
     margin-top: 200px;
-    margin-left: 400px;
     margin-bottom: 100px;
    
 }

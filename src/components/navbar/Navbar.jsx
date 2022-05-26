@@ -1,6 +1,8 @@
 import './navbar.css';
 import { Link } from 'react-scroll'
 import Socials from '../socials/Socials';
+import { useState } from 'react';
+import { AiFillDingtalkSquare } from 'react-icons/ai';
 
 
 
@@ -8,8 +10,21 @@ import Socials from '../socials/Socials';
 
 
 export const Navbar = () => {
+
+const [navbar, setNavbar] = useState(false)
+
+const changeBackground = () => {
+    if(window.scrollY >= 100) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+}
+
+window.addEventListener('scroll', changeBackground)
+
   return (
-    <nav>
+    <nav className={navbar ? "active" : ''}>
       <Socials/>
       
           <ul className='list'>

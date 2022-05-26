@@ -3,23 +3,23 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    right: 6%;
+    left: 10%;
     width: 150px;
 }
 
 .github {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 
 .linkedin {
  
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 
 .youtube {
   
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }

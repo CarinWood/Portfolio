@@ -16,11 +16,11 @@ const Home = () => {
                         <p className='hello'>Hello, I'm</p>
                         <h1 className='headline'><TextAnimation/></h1>
                         <p className='subtext'>A Creative Web Designer & Full Stack Developer</p>
-                        <Link to="contact" spy={true} smooth="true" offset={0} duration={500}>
+                        {/* <Link to="contact" spy={true} smooth="true" offset={50} duration={500}>
                           <button type="submit" className="contact-btn">
                             Contact Me
                           </button>
-                        </Link>
+                        </Link> */}
                       
                 </div>
             </header>
