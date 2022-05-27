@@ -2,21 +2,41 @@
     color: goldenrod;
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 17.3%;
 }
 
 
 .email-div, .location-div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.email {
+.location-div {
+    margin-top: 70px;
+}
+
+.location-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.email, .location {
     font-size: 18px;
     color: white;
     font-size: 20px;
     font-family: "Montserrat";
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.email-address, .location-goth {
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: "Montserrat";
+    margin-left: 3px;
 }
 
 .email-icon {
@@ -29,4 +49,9 @@
     color: goldenrod;
     font-size: 30px;
     margin-right: 20px;
+    margin-left: 0px;
+}
+
+.location-div {
+    padding-left: 0px;
 }

@@ -1,10 +1,4 @@
 import "./about.css";
-import css from '../../assets/img/css3.png'
-import git from '../../assets/img/git.png'
-import html from '../../assets/img/html5.png'
-import js from '../../assets/img/js.png'
-import node from '../../assets/img/nodejs.png'
-import ts from '../../assets/img/typescript_original_logo_icon_146317.png'
 import profilepic from '../../assets/img/profilbild.jpg'
 import { Link } from 'react-scroll'
 import { useEffect, useState } from "react";
@@ -45,7 +39,7 @@ const About = () => {
               I design and build web sites using Javascript and Typescript. 
               <br/>
               <br/>
-              I’ve always been someone who has both a creative and a logical side. 
+              I've always been someone who has both a creative and a logical side. 
               When I discovered web development, I realized it would be the perfect fit for me. 
               I can use my creative side to design and my logical side to code.
               <br/>
