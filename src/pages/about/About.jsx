@@ -7,9 +7,31 @@ import node from '../../assets/img/nodejs.png'
 import ts from '../../assets/img/typescript_original_logo_icon_146317.png'
 import profilepic from '../../assets/img/profilbild.jpg'
 import { Link } from 'react-scroll'
+import { useEffect, useState } from "react";
 
 
 const About = () => {
+  const [makeItShake, setMakeItShake] = useState(false)
+
+
+  useEffect(() => {
+    shakeButton()
+  }, [])
+
+  const shakeButton = () => {
+    console.log(window.scrollY)
+      if (window.scrollY > 400) {
+        
+        setMakeItShake(true)
+      } else {
+        setMakeItShake(false)
+      }
+  }
+
+  window.addEventListener('scroll', shakeButton)
+
+
+
   return (
     <div id="about" className="about-wrapper">
           <h1 className="about-headline">About me</h1>
@@ -28,9 +50,10 @@ const About = () => {
               I can use my creative side to design and my logical side to code.
               <br/>
               <br/>
-              I'm interested in the entire full stack spectrum and working on ambitious projects together with positive people.
+              I'm interested in the entire full stack spectrum and would love to work on ambitious projects together with positive people.
               <br/> 
               <br/>
+              { makeItShake &&
               <Link to="contact" 
                 spy={true} 
                 smooth="true"
@@ -38,7 +61,8 @@ const About = () => {
                 duration={500} 
                 className='list-item shakeme'
                 ><button className="work-together shakeme">Work with me</button> 
-                </Link>
+                </Link>}
+                
             </p>
 
           
