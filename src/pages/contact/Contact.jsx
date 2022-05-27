@@ -10,18 +10,17 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setPopup(true)
 
     emailjs.sendForm('service_08ctk5i', 'template_sbnwfvh', form.current, '17cXuSlvrGbzTCUK_')
-      .then((result) => {
+      .then((result) => { 
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
   };
 
-  const openPopup = () => {
-    setPopup(true)
-  }
+
   return (
     <div className='contact-container' id="contact">
      
@@ -30,13 +29,13 @@ const Contact = () => {
      <form className="form" ref={form} onSubmit={sendEmail}>
           
               <label>Name</label>
-              <input type="text" name="user_name" placeholder='Your name' className='name-input' />
+              <input required type="text" name="user_name" placeholder='Your name' className='name-input' />
               <label>Email</label>
-              <input type="email" name="user_email" placeholder='Your email'  className='email-input'/>
-              <input type="text" name="subject" placeholder="Subject" className='subject-input' />
+              <input required type="email" name="user_email" placeholder='Your email'  className='email-input'/>
+              <input required type="text" name="subject" placeholder="Subject" className='subject-input' />
       <label>Message</label>
       <textarea name="message" placeholder='Your message' className='message-input'/>
-      <input type="submit" value="Send" className='send-btn' onClick={() => openPopup()}/>
+      <input type="submit" value="Send" className='send-btn' />
     </form>
     {popup && <Popup popup={popup} setPopup={setPopup}/>}
     </div>
