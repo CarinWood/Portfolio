@@ -1,45 +1,53 @@
 import "./about.css";
-import { Link } from 'react-scroll'
 import css from '../../assets/img/css3.png'
-import figma from '../../assets/img/figma.png'
 import git from '../../assets/img/git.png'
 import html from '../../assets/img/html5.png'
 import js from '../../assets/img/js.png'
 import node from '../../assets/img/nodejs.png'
 import ts from '../../assets/img/typescript_original_logo_icon_146317.png'
+import profilepic from '../../assets/img/profilbild.jpg'
+import { Link } from 'react-scroll'
 
 
 const About = () => {
   return (
     <div id="about" className="about-wrapper">
+          <h1 className="about-headline">About me</h1>
      
       <div className="about-container">
-       <section className="image-container">Image</section>
-        <div className="main-content">
-        <h1 className="about-headline">About me</h1>
+      
 
+            <img className="profile-image" src={profilepic} alt="" />      
             <p className="about-text">
-              I'm a fullstack developer located in Gothenburg, Sweden. I'm very
-              passionate about my work. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ipsam nisi voluptate molestias eveniet velit
-              suscipit. Aliquid nemo voluptatem eum quo inventore iure nisi
-              veritatis quis ipsa illum. Distinctio, assumenda aspernatur.
-            </p>
-
-            <Link to="portfolio" 
+              I'm a full stack developer located in Gothenburg, Sweden. 
+              I design and build web sites using Javascript and Typescript. 
+              <br/>
+              <br/>
+              I’ve always been someone who has both a creative and a logical side. 
+              When I discovered web development, I realized it would be the perfect fit for me. 
+              I can use my creative side to design and my logical side to code.
+              <br/>
+              <br/>
+              I'm interested in the entire full stack spectrum and working on ambitious projects together with positive people.
+              <br/> 
+              <br/>
+              <Link to="contact" 
                 spy={true} 
                 smooth="true"
                 offset={0} 
-                duration={500}  
-            >
-               <button  className="portfolio-button">Portfolio</button>
-             </Link>     
+                duration={500} 
+                className='list-item shakeme'
+                ><button className="work-together shakeme">Work with me</button> 
+                </Link>
+            </p>
+
+          
       
          
-        </div>
+      
       </div>
 
-      <div className='about-footer'>
+       {/* <div className='about-footer'>
             <img className="brand" src={html} alt="" />
             <img className="brand" src={css} alt="" />
             <img className="brand" src={js} alt="" />
@@ -47,7 +55,7 @@ const About = () => {
             <img className="brand" src={node} alt="" />
             <img className="brand" src={git} alt="" />   
         
-      </div>
+      </div>  */}
 
     </div>
   );

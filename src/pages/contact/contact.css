@@ -8,13 +8,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid pink;
+    position: relative;
 }
 
 .contact-headline {
     color: var(--primary-color);
-    font-size: 110px;
     font-family: 'corinthia';
+    font-size: 90px;
     letter-spacing: 3px;
-    padding-top: 80px;
+    padding-top: 40px;
 }

@@ -1,15 +1,32 @@
 .info-section {
     color: goldenrod;
+    position: absolute;
+    left: 10%;
+    top: 15%;
 }
 
 
-.email-me {
+.email-div, .location-div {
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: goldenrod;
+    align-items: flex-start;
+}
+
+.email {
+    font-size: 18px;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
 }
 
 .email-icon {
     color: goldenrod;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.location-icon {
+    color: goldenrod;
+    font-size: 30px;
+    margin-right: 20px;
 }
