@@ -1,6 +1,5 @@
 import './home.css'
 import TextAnimation from '../../components/TextAnimation';
-import { Link } from 'react-scroll'
 import { Navbar } from '../../components/navbar/Navbar';
 
 

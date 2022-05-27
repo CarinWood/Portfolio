@@ -3,6 +3,7 @@ import Info from '../../components/contactInfo/Info';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Popup from '../../components/popup/Popup';
+import Footer from '../../components/footer/Footer';
 
 const Contact = () => {
   const [popup, setPopup] = useState(false)
@@ -38,6 +39,7 @@ const Contact = () => {
       <input type="submit" value="Send" className='send-btn' />
     </form>
     {popup && <Popup popup={popup} setPopup={setPopup}/>}
+    <Footer/>
     </div>
   )
 }

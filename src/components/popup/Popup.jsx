@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { GiCheckMark } from "react-icons/gi";
 import './popup.css'
 
@@ -13,7 +12,7 @@ const Popup = ({popup, setPopup}) => {
         <div className='icon'>
             <GiCheckMark className='check'/>
         </div>
-        <div className='title'>success!!    
+        <div className='title'>Thank you!    
         </div>
         <div className='description'>
             <p>I'll get back to you as soon as I can ...</p>       

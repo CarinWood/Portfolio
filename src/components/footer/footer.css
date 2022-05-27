@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    padding-right: 200px;
+
+}
+
+.carin {
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    opacity: 0.8;
+}

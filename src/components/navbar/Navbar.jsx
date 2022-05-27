@@ -2,7 +2,7 @@ import './navbar.css';
 import { Link } from 'react-scroll'
 import Socials from '../socials/Socials';
 import { useState } from 'react';
-import { AiFillDingtalkSquare } from 'react-icons/ai';
+
 
 
 
