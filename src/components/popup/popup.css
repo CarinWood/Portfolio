@@ -19,17 +19,10 @@
     /* top: -200%;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5); */
-    transition: opacity 200ms ease-in-out,
+    transition: opacity 500ms ease-in-out,
                 top 500ms ease-in-out,
-                transform 500ms ease-in-out
-}
-
-.activated {
-    opacity: 1;
-    top: 25%;
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform 1s cubic-bezier(0.18, 0.89, 0.43, 1.19);
-    animation: pop 1s ease-in-out;
+                transform 500ms ease-in-out;
+    animation: pop 400ms ease-in-out;
 }
 
 @keyframes pop {
@@ -43,6 +36,20 @@
         top: 25%;
         transform: translate(-50%, -50%) scale(1);
     }
+}
+
+@keyframes away {
+    0% {
+        opacity: 1;
+        top: 25%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        top: -200%;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    
 }
 
 .check {
@@ -78,7 +85,7 @@
 
 .dismiss-btn {
     margin-top: 15px;
-    cursor: pointer;
+  
    
 }
 
@@ -94,4 +101,9 @@
     outline: none;
     border-radius: 5px;
     transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.dismiss-btn button:active {
+    transform: translateY(3px);
 }
