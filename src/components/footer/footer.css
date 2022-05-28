@@ -6,13 +6,17 @@
     justify-content: flex-end;
     align-items: center;
     background-color: transparent;
-    padding-right: 200px;
+    padding-right: 100px;
 
 }
 
 .carin {
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Montserrat';
-    opacity: 0.8;
+    opacity: 0.5;
+}
+
+.dark {
+    opacity: 0.2;
 }

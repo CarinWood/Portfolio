@@ -106,6 +106,10 @@
     width: 100px; 
 }
 
+.view-button:active {
+    transform: translateY(2px);
+}
+
 .github-container {
     position: absolute;
     top: 28%;
@@ -116,12 +120,12 @@
     border: 1px dotted white;
     width: 200px;
     transform: rotate(20deg);
-    animation: grow 1500ms  ease-in-out;
+    animation: grow 1.2s  ease-out;
 }
 
 @keyframes grow {
     0% {
-        top: -300%;
+        top: -40%;
         opacity: 0;
         transform: rotate(0deg);
     }
@@ -154,13 +158,15 @@
     opacity: 0.5;
 }
 
-.github-span {
+.a-tag {
+    color: white !important;
     text-decoration: underline;
     cursor: pointer;
+    margin-right: 0.8px;
 }
 
-.github-span:hover {
-    color: goldenrod;
-    opacity: 1;
+
+.a-tag:hover {
+    color: teal !important;
 }
 

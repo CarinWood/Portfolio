@@ -1,9 +1,23 @@
 import "./portfolio.css";
 import { FiGithub } from "react-icons/fi";
+import { useState } from "react";
 
 
 
 const Projects = () => {
+  const [fall, setFall] = useState(false);
+
+  const githubFall = () => {
+    console.log(window.scrollY)
+      if (window.scrollY > 1000) {
+        setFall(true)
+      } else {
+        setFall(false)
+      }
+  }
+
+  window.addEventListener('scroll', githubFall)
+
  
   return (
     <div className="projects-container" id="portfolio">
@@ -30,12 +44,12 @@ const Projects = () => {
         </div>
       </section>
 
-       <div className="github-container">
+      {/* { fall && <div className="github-container">
        <FiGithub className="githubcat"/>
-       <p className="github-text">Psst! See my <br/> <span className="github-span">Github</span> page</p>
-       </div>
+       <p className="github-text">Psst! See my <br/><a className="a-tag" target="_blank" href="https://github.com/CarinWood">Github</a> page</p>
+       </div>}
       
-      
+       */}
     </div>
   );
 };

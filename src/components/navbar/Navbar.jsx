@@ -63,7 +63,7 @@ window.addEventListener('scroll', changeBackground)
                 duration={500} 
                 className='list-item'
                 > Contact </Link>
-                </li>                       
+                </li>                                   
            </ul> 
 
         

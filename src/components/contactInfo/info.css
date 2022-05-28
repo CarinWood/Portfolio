@@ -1,8 +1,8 @@
 .info-section {
     color: goldenrod;
     position: absolute;
-    left: 15%;
-    top: 30%;
+    left: 5%;
+    top: 34%;
 }
 
 
@@ -55,4 +55,19 @@
 
 .location-div {
     padding-left: 0px;
+}
+
+.connect-section {
+    color: goldenrod;
+    position: absolute;
+    right: 7%;
+    top: 34%;
+}
+
+
+@media (max-width: 1570px) {
+    .info-section {
+        left: 5%;
+        top: 28%;
+    }
 }

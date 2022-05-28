@@ -14,7 +14,7 @@ const About = () => {
 
   const shakeButton = () => {
     console.log(window.scrollY)
-      if (window.scrollY > 400) {
+      if (window.scrollY > 500) {
         
         setMakeItShake(true)
       } else {
@@ -54,7 +54,7 @@ const About = () => {
                 offset={0} 
                 duration={500} 
                 className='list-item shakeme'
-                ><button className="work-together shakeme">Work with me</button> 
+                ><button className="work-together shakeme">To my resume/CV</button> 
                 </Link>}
                 
             </p>
