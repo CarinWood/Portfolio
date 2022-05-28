@@ -21,6 +21,7 @@ const Info = () => {
           <p className="location-goth">Gothenburg, Sweden</p>
         </article>
       </div>
+     
     </section>
   );
 };

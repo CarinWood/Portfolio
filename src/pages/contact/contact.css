@@ -17,6 +17,7 @@
     font-size: 90px;
     letter-spacing: 3px;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 .form {
@@ -25,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    margin-left: 300px;
+    margin-left: 500px;
     position: relative;
     padding: 0px;
 }
@@ -114,10 +115,16 @@
     font-weight: 500;
     letter-spacing: 1.3px;
     padding: 12px;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 180px;
 }
 
 .send-btn:active {
     transform: translateY(2px);
+}
+
+.map {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
 }

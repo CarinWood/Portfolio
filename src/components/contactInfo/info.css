@@ -1,7 +1,7 @@
 .info-section {
     color: goldenrod;
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 30%;
 }
 
@@ -13,7 +13,8 @@
 }
 
 .location-div {
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-bottom: 55px;
 }
 
 .location-text {
@@ -34,7 +35,7 @@
 
 .email-address, .location-goth {
     margin-top: 0px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Montserrat";
     margin-left: 3px;
 }
