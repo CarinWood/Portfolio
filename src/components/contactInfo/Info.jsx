@@ -1,7 +1,7 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
+import { MdAlternateEmail } from "react-icons/md";
 import "./info.css";
 
 const Info = ({popup}) => {
@@ -9,7 +9,7 @@ const Info = ({popup}) => {
     <>
     <section className={popup ? "info-section dark" : "info-section"}>
       <div className="email-div">
-        <AiOutlineMail className="email-icon" />
+        <MdAlternateEmail className="email-icon" />
         <article className="email-text">
           <p className="email"> Get in touch with me</p>
           <p className="email-address">carin.wood.85@gmail.com</p>
@@ -17,30 +17,30 @@ const Info = ({popup}) => {
       </div>
 
       <div className="location-div">
-        <IoLocationOutline className="location-icon" />
-        <article className="location-text">
-          <p className="location"> Current location</p>
-          <p className="location-goth">Gothenburg, Sweden</p>
+        <FiYoutube className="youtube-icon" />
+        <article className="youtube-text">
+          <p className="location">Watch my videos</p>
+          <p className="youtube-subtext">To my Youtube</p>
         </article>
       </div>
     </section>
-    {/* <section className="connect-section">
+    <section className="connect-section">
       <div className="email-div">
         <FiGithub className="email-icon" />
         <article className="email-text">
           <p className="email">Check out my projects</p>
-          <p className="email-address">Go to my Github</p>
+          <p className="email-address">To my Github</p>
         </article>
       </div>
 
       <div className="location-div">
-        <FiLinkedin className="location-icon" />
+        <FiLinkedin className="linked-icon" />
         <article className="location-text">
           <p className="location">Let's connect!</p>
-          <p className="location-goth">Visit me on LinkedIn</p>
+          <p className="linked-subtext">To my LinkedIn</p>
         </article>
       </div>
-    </section> */}
+    </section> 
     </>
   );
 };

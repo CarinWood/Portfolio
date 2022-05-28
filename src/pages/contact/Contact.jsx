@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 import Popup from '../../components/popup/Popup';
 import Footer from '../../components/footer/Footer';
 import { FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
+import { AiOutlineMail } from "react-icons/ai";
+
 
 
 const Contact = () => {
@@ -34,8 +36,8 @@ const Contact = () => {
         <h1 className={popup ? 'contact-headline dark': 'contact-headline'}>Contact</h1>
        
      <Info popup={popup}/>
+     <p className='quick-message'><AiOutlineMail className='envelope'/> Send me a message</p>
      <form className={popup ? "form dark": "form"} ref={form} onSubmit={sendEmail}>
-    
               <label>Name</label>
               <input required type="text" name="user_name" placeholder='Your name' className='name-input' />
               <label>Email</label>
@@ -47,9 +49,9 @@ const Contact = () => {
     </form>
     {popup && <Popup popup={popup} setPopup={setPopup}/>}
     <section className={popup ? 'social-media dark': "social-media"}>
-    <a href="https://github.com/CarinWood" target="_blank"><FiGithub className='icon1'/></a>
+    {/* <a href="https://github.com/CarinWood" target="_blank"><FiGithub className='icon1'/></a>
     <a href="https://www.linkedin.com/in/carin-wood/" target="_blank"><FiLinkedin className='icon1'/></a>
-    <a href="https://www.youtube.com/channel/UCTSlUc6-CsI08YtmULq6fng" target="_blank"><FiYoutube className='icon1'/></a>
+    <a href="https://www.youtube.com/channel/UCTSlUc6-CsI08YtmULq6fng" target="_blank"><FiYoutube className='icon1'/></a> */}
     </section>
     <Footer popup={popup}/>
     </div>
