@@ -183,3 +183,28 @@
         top: 30%;
     }
 }
+
+@media (max-width: 415px) {
+    .contact-container {
+        height: 100vh;
+    }
+    .contact-headline {
+        font-size: 70px;
+        letter-spacing: 3px;
+        padding-top: 0px;
+        margin-top: 50px;
+    }
+
+    .quick-message {
+        height: 0.01vh;
+        font-size: 1px;
+        visibility: hidden;
+    }
+
+    form {
+        height: 0.01px;
+        font-size: 0.5px;
+        visibility: hidden;
+      
+    }
+}

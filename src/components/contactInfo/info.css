@@ -111,3 +111,28 @@
         top: 20%;
     }
 }
+
+@media (max-width: 415px) {
+    .info-section {  
+        width: 100%;
+        left: 0;
+        margin-left:70px;
+    }
+
+    .email-div, .location-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 30px;
+        width: 100%;
+         
+    }
+
+    .connect-section {
+        margin-top: 180px;
+        margin-right: -36px;
+        width: 60%;
+    }
+
+
+}

@@ -42,9 +42,10 @@ const About = () => {
               I can use my creative side to design and my logical side to code.
               <br/>
               <br/>
-              I'm interested in the entire full stack spectrum and would love to work on ambitious projects together with positive people.
+              <span className="responsive-text">I'm interested in the entire full stack spectrum and would love to work on ambitious projects together with positive people.
               <br/> 
               <br/>
+              </span>
               { makeItShake &&
               <Link to="contact" 
                 spy={true} 
@@ -52,13 +53,9 @@ const About = () => {
                 offset={0} 
                 duration={500} 
                 className='list-item shakeme'
-                ><button className="work-together shakeme">To my resume/CV</button> 
+                ><button className="work-together shakeme">To my resume / CV</button> 
                 </Link>} 
-            </p>
-
-          
-      
-         
+            </p>        
       
       </div>
 
