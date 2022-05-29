@@ -9,8 +9,7 @@ nav {
     position: fixed;
     top:0;
     transition: 1s ease-in-out;
-    z-index: 100;
-    
+    z-index: 100;  
 }
 
 .list {
@@ -55,3 +54,13 @@ nav {
     z-index: 100;
 }
 
+@media (max-width: 1170px) {
+    nav {
+        visibility: hidden;
+        transition: none;
+    }
+
+    .list-item {
+        transition: none;
+    }
+}

@@ -134,10 +134,17 @@
     padding: 12px;
     margin-top: 25px;
     width: 180px;
+    transition: 0.6s ease-in-out;
 }
 
 .send-btn:active {
     transform: translateY(2px);
+}
+
+.send-btn:hover {
+    border: 1px solid rgb(90, 192, 192);
+    color: rgb(90, 192, 192);
+    transition: 0.6s ease-in-out;
 }
 
 .map {
