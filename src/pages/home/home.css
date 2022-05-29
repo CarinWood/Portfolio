@@ -78,6 +78,21 @@ header {
     transform: translateY(3px);
 }
 
+._icon {
+    font-size: 55px;
+    color: teal;
+    margin-right: 50px;  
+    cursor: pointer;
+    margin-top: 40px;
+   
+}
+
+.kitty {
+    margin-left: 120px;
+}
+
+
+
 
 
 

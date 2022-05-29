@@ -1,5 +1,6 @@
-import "./portfolio.css";
-import { FiGithub } from "react-icons/fi";
+import "./portfolio.css"
+import { GiJapaneseBridge, GiAmpleDress } from "react-icons/gi";
+import { RiTodoLine } from "react-icons/ri";
 import { useState } from "react";
 
 
@@ -25,6 +26,7 @@ const Projects = () => {
       <section className="first-row">
         <div className="box1">
           <h1 className="project-title">The Japan Blog</h1>
+          <GiJapaneseBridge className="japan-icon"/>
           <p className="sub">
             Html, CSS, JavaScript
           </p>
@@ -33,23 +35,18 @@ const Projects = () => {
         <div className="divider"></div>
         <div className="box2">
           <h1 className="project-title">Fashion Store</h1>
+          <GiAmpleDress className="fashion-icon"/>
           <p className="sub">React, JavaScript</p>
           <button className="view-button">View</button>
         </div>
         <div className="divider"></div>
         <div className="box3">
           <h1 className="project-title">Todo list</h1>
+          <RiTodoLine className="todo-icon"/>
           <p className="sub">React, TypeScript</p>
           <button className="view-button">View</button>
         </div>
       </section>
-
-      {/* { fall && <div className="github-container">
-       <FiGithub className="githubcat"/>
-       <p className="github-text">Psst! See my <br/><a className="a-tag" target="_blank" href="https://github.com/CarinWood">Github</a> page</p>
-       </div>}
-      
-       */}
     </div>
   );
 };

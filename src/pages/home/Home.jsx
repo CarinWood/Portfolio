@@ -1,6 +1,7 @@
 import './home.css'
 import TextAnimation from '../../components/TextAnimation';
 import { Navbar } from '../../components/navbar/Navbar';
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 
 
@@ -20,7 +21,10 @@ const Home = () => {
                             Contact Me
                           </button>
                         </Link> */}
-                      
+                        {/* <FaGithub className='_icon kitty'/>
+                        <FaLinkedin className='_icon'/>
+                        <FaYoutube className='_icon'/>
+                       */}
                 </div>
             </header>
       
