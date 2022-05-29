@@ -3,7 +3,6 @@ import profilepic from '../../assets/img/profilbild.jpg'
 import { Link } from 'react-scroll'
 import { useEffect, useState } from "react";
 
-
 const About = () => {
   const [makeItShake, setMakeItShake] = useState(false)
 
@@ -31,7 +30,6 @@ const About = () => {
           <h1 className="about-headline">About me</h1>
      
       <div className="about-container">
-      
 
             <img className="profile-image" src={profilepic} alt="" />      
             <p className="about-text">
@@ -55,8 +53,7 @@ const About = () => {
                 duration={500} 
                 className='list-item shakeme'
                 ><button className="work-together shakeme">To my resume/CV</button> 
-                </Link>}
-                
+                </Link>} 
             </p>
 
           
@@ -65,15 +62,6 @@ const About = () => {
       
       </div>
 
-       {/* <div className='about-footer'>
-            <img className="brand" src={html} alt="" />
-            <img className="brand" src={css} alt="" />
-            <img className="brand" src={js} alt="" />
-            <img className="ts-brand" src={ts} alt="" />
-            <img className="brand" src={node} alt="" />
-            <img className="brand" src={git} alt="" />   
-        
-      </div>  */}
 
     </div>
   );

@@ -1,7 +1,12 @@
 .info-section {
-    color: goldenrod;
     position: absolute;
     left: 31%;
+    top: 25%;
+}
+
+.connect-section {
+    position: absolute;
+    right: 31%;
     top: 25%;
 }
 
@@ -16,7 +21,7 @@
     margin-bottom: 55px;
 }
 
-.youtube-text, .location-text {
+.youtube-text, .linkedin-text, .github-text, .email-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,29 +36,21 @@
     margin-top: 3px;
     margin-bottom: 10px;
     position: relative;
-    width: auto;
     cursor: pointer;
 }
 
-.email-address {
-    margin-top: 0px;
-    font-size: 18px;
-    font-family: "Montserrat";
-    margin-left: 3px;
-    color: white;
-    opacity: 0.5;
-    margin-left: -40px;
-    margin-top: 15px;
+.github-headline {
+    color: white !important;
+    opacity: 1 !important;
 }
 
-.youtube-subtext, .linked-subtext {
+.email-subtext, .youtube-subtext, .linked-subtext, .github-subtext {
     font-size: 18px;
     font-family: "Montserrat";
     margin-top: 5px;
     margin-left: -40px;
     color: white;
     opacity: 0.5;
-
 }
 
 .email-icon {
@@ -64,26 +61,25 @@
 
 .linked-icon {
     color: teal;
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 15px;
 }
 
 .youtube-icon {
     color: teal;
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 15px;
     margin-left: 0px;
 }
 
-.location-div {
-    padding-left: 0px;
+.github-icon {
+    color: teal;
+    font-size: 30px;
+    margin-right: 15px;
 }
 
-.connect-section {
-    color: goldenrod;
-    position: absolute;
-    right: 31%;
-    top: 25%;
+.github-text {
+    opacity: 1;
 }
 
 
@@ -101,6 +97,11 @@
 ._headline:hover::after {
     left: 0%;
     width: 100%;
+}
+
+.atag {
+    text-decoration: none;
+
 }
 
 
