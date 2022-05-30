@@ -6,7 +6,7 @@ import "./info.css";
 const Info = ({popup}) => {
   return (
     <>
-    <div className="contact-icons">
+    <div className={popup ? "contact-icons dark": "contact-icons"}>
         <div className="top-row">
           <div className="email-div">       
           <article className="email-text">
@@ -26,9 +26,7 @@ const Info = ({popup}) => {
         </div>
         <p className="youtube-subtext">Watch my videos</p>
         </article>
-          </div>
-
-           
+          </div>     
         </div>
         <div className="bottom-row">
         

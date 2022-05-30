@@ -205,28 +205,42 @@
   }
 }
 
-@media (max-width: 415px) {
-    .info-section {  
-        width: 100%;
-        left: 0;
-        margin-left:70px;
+@media (max-width: 845px) {
+    .top-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .bottom-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
     }
 
-    .email-div, .linkedin-div {
+    .email-div {
+        width: 300px;
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
-        margin-top: 30px;
-        width: 100%;
+        margin-bottom: 20px;
     }
 
-
-
-    .connect-section {
-        margin-top: 180px;
-        margin-right: -36px;
-        width: 60%;
+    .youtube-div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 20px;
     }
+}
 
+@media (max-width: 415px) {
 
+    .youtube-div, .email-div {
+        margin-left: 60px;
+    }
 }

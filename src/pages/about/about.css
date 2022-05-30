@@ -166,8 +166,8 @@
     }
 
     .profile-image {
-        width: 380px;
-        height: 380px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         margin-right: 500px;
         filter: grayscale(100%);
@@ -177,9 +177,9 @@
 
     .about-text {
 
-        width: 600px;
+        width: 500px;
 
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: 1px;
         line-height: 30px;
         margin-top: 0px;
@@ -187,10 +187,55 @@
         margin-right: 200px;
         opacity: 0.8;
         position: absolute;
-        left: 40%;
+        left: 37%;
         top: 25%;
     }
     
+    .work-together {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 12px;
+        margin-top: 15px;
+        transition: 0.6s ease-in-out;
+}
+    
+}
+
+@media (max-width: 845px) {
+    .about-wrapper {
+        height: 90vh;
+    }
+
+    .about-headline {
+        color: var(--primary-color);
+        font-family: 'corinthia';
+        font-size: 90px;
+        letter-spacing: 3px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-top: -350px;
+    }
+
+    .profile-image {
+        visibility: hidden;  
+    }
+
+    .about-text {
+        width: 500px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 200px;
+        opacity: 0.8;
+        position: absolute;
+        left: 50%;
+        margin-left: -250px;
+        top: 25%;
+        text-align: center;
+    }
 }
 
 

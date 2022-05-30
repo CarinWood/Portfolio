@@ -146,6 +146,34 @@
     opacity: 0.5;
 }
 
+@media (max-width: 845px) {
+
+    .portfolio-headline {
+        font-size: 90px;
+        letter-spacing: 3px;
+        padding-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .project-title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .sub {
+        font-size: 12px;
+        color: whitesmoke;
+        opacity: 0.8;
+        font-family: 'Montserrat';
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .view-button {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 415px) {
     .projects-container {
         height: 150vh;

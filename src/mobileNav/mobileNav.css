@@ -86,6 +86,10 @@
    
 }
 
+@media (max-width: 811) {
+    
+}
+
 @media (max-width: 415px) {
     .menu {
         font-size: 32px;

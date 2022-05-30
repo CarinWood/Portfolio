@@ -38,12 +38,12 @@ const Contact = () => {
      <Info popup={popup}/>
      <p id="form" className='quick-message'><AiOutlineMail className='envelope'/> Send me a message</p>
      <form className={popup ? "form dark": "form"} ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
+              <label className='label'>Name</label>
               <input required type="text" name="user_name" placeholder='Your name' className='name-input' />
-              <label>Email</label>
+              <label className='label'>Email</label>
               <input required type="email" name="user_email" placeholder='Your email'  className='email-input'/>
               <input required type="text" name="subject" placeholder="Subject" className='subject-input' />
-      <label>Message</label>
+      <label className='label'>Message</label>
       <textarea name="message" placeholder='Your message' className='message-input'/>
       <input type="submit" value="Send" className='send-btn' />
     </form>
