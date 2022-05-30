@@ -117,34 +117,44 @@
 /* Top row */
 
 .top-row {
-    width: 700px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
-    border: 1px solid white;
+    margin-bottom: 60px;
  
 }
 
 .email-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 300px;
+
 }
 
 .youtube-div {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 300px;
+
+}
+
+.headline-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedinid {
+    margin-bottom: 2px;
 }
 
 
 /* Bottom row */
 
 .bottom-row {
-    width: 700px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
