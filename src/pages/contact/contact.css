@@ -21,7 +21,7 @@
     font-size: 90px;
     letter-spacing: 3px;
     padding-top: 40px;
-    margin-bottom: 370px;
+    margin-bottom: 80px;
 }
 
 .quick-message {
@@ -32,6 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .envelope {
@@ -178,10 +179,7 @@
 }
 
 @media (max-width: 1570px) {
-    .social-media {
-        right: 20%;
-        top: 30%;
-    }
+   
 }
 
 @media (max-width: 415px) {

@@ -10,13 +10,13 @@
     top: 25%;
 }
 
-.email-div, .location-div {
+.email-div, .linkedin-div {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.location-div {
+.linkedin-div {
     margin-top: 60px;
     margin-bottom: 55px;
 }
@@ -44,16 +44,16 @@
     opacity: 1 !important;
 }
 
-.email-subtext, .youtube-subtext, .linked-subtext, .github-subtext {
+/* .email-subtext, .youtube-subtext, .linked-subtext, .github-subtext {
     font-size: 18px;
     font-family: "Montserrat";
     margin-top: 5px;
     margin-left: -40px;
     color: white;
     opacity: 0.5;
-}
+} */
 
-.email-icon {
+/* .email-icon {
     color: teal;
     font-size: 30px;
     margin-right: 15px;
@@ -76,7 +76,7 @@
     color: teal;
     font-size: 30px;
     margin-right: 15px;
-}
+} */
 
 .github-text {
     opacity: 1;
@@ -105,11 +105,94 @@
 }
 
 
-@media (max-width: 1570px) {
-    .info-section {
-        left: 30%;
-        top: 20%;
-    }
+/* Experiment */
+
+.contact-icons {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top row */
+
+.top-row {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid white;
+ 
+}
+
+.email-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.youtube-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+}
+
+
+/* Bottom row */
+
+.bottom-row {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+
+/* subtexts */
+
+
+.email-subtext, .youtube-subtext{
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-top: 5px;
+  
+    color: white;
+    opacity: 0.5;
+
+}
+
+/* Icons */
+
+.email-icon, .github-icon, .youtube-icon, .linked-icon {
+    color: teal;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1290px) {
+  .info-section {
+      margin-top: -130px;
+  }
+
+  .connect-section {
+      margin-top: -130px;
+  }
 }
 
 @media (max-width: 415px) {
@@ -119,14 +202,15 @@
         margin-left:70px;
     }
 
-    .email-div, .location-div {
+    .email-div, .linkedin-div {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: 30px;
         width: 100%;
-         
     }
+
+
 
     .connect-section {
         margin-top: 180px;

@@ -24,7 +24,8 @@
     border-radius: 50%;
     margin-right: 500px;
     filter: grayscale(100%);
-    opacity: 0.4;    
+    opacity: 0.4;
+    margin-top: -40px;    
 }
 
 .about-headline {
@@ -34,7 +35,7 @@
     letter-spacing: 3px;
     padding-top: 0px;
     margin-top: 0px;
-    margin-bottom: 70px;
+    margin-top: -70px;
 }
 
 .about-text {
@@ -50,7 +51,7 @@
     opacity: 0.8;
     position: absolute;
     left: 45%;
-    top: 37%;
+    top: 32%;
 }
 
 
@@ -65,7 +66,7 @@
     font-weight: 500;
     letter-spacing: 1px;
     padding: 12px;
-    margin-top: 10px;
+    margin-top: 20px;
     transition: 0.6s ease-in-out;
 }
 
