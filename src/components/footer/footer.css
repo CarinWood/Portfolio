@@ -17,19 +17,12 @@
     opacity: 0.5;
 }
 
-.dark {
-    opacity: 0.2;
-}
 
 @media (max-width: 500px) {
-
     .footer {
-        max-width: 100%;
-        overflow-x: hidden;
-        justify-content: center;
-        padding-right: 0px;
+      visibility: hidden;
     }
     .carin {
-        font-size: 12px;
+        visibility: hidden;
     }
 }

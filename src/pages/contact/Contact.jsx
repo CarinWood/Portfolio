@@ -3,9 +3,8 @@ import Info from '../../components/contactInfo/Info';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Popup from '../../components/popup/Popup';
-import Footer from '../../components/footer/Footer';
-import { FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
+import Footer from '../../components/footer/Footer';
 
 
 
@@ -31,8 +30,10 @@ const Contact = () => {
 
 
   return (
+    <>
+
     <div className='contact-container' id="contact">
-     
+    <Footer popup={popup}/>     
         <h1 className={popup ? 'contact-headline dark': 'contact-headline'}>Contact</h1>
        
      <Info popup={popup}/>
@@ -50,8 +51,12 @@ const Contact = () => {
     {popup && <Popup popup={popup} setPopup={setPopup}/>}
     <section className={popup ? 'social-media dark': "social-media"}>
     </section>
-    <Footer popup={popup}/>
+
+  
+
     </div>
+
+    </>
   )
 }
 

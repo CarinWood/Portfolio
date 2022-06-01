@@ -44,26 +44,6 @@
     opacity: 1 !important;
 }
 
-/* .email-subtext, .youtube-subtext, .linked-subtext, .github-subtext {
-    font-size: 18px;
-    font-family: "Montserrat";
-    margin-top: 5px;
-    margin-left: -40px;
-    color: white;
-    opacity: 0.5;
-} */
-
-/* .email-icon {
-    color: teal;
-    font-size: 30px;
-    margin-right: 15px;
-}
-
-.linked-icon {
-    color: teal;
-    font-size: 30px;
-    margin-right: 15px;
-}
 
 .youtube-icon {
     color: teal;
@@ -76,7 +56,7 @@
     color: teal;
     font-size: 30px;
     margin-right: 15px;
-} */
+} 
 
 .github-text {
     opacity: 1;
@@ -101,7 +81,6 @@
 
 .atag {
     text-decoration: none;
-
 }
 
 
@@ -169,7 +148,6 @@
     font-size: 18px;
     font-family: "Montserrat";
     margin-top: 5px;
-  
     color: white;
     opacity: 0.5;
 
@@ -182,17 +160,6 @@
     font-size: 30px;
     margin-right: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1290px) {
@@ -242,5 +209,9 @@
 
     .youtube-div, .email-div {
         margin-left: 60px;
+    }
+
+    ._headline::after {
+        height: 0px;
     }
 }

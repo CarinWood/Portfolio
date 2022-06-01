@@ -174,6 +174,7 @@
     color: teal;
 }
 
+
 @media (max-width: 845px) {
     .contact-headline {
         padding-top: 30px;
@@ -247,23 +248,28 @@
         height: 100vh;
         max-width: 100%;
         overflow-x: hidden;
+        position: relative;
+        max-width: 99%;
+        justify-content: flex-start;
     }
     .contact-headline {
         font-size: 70px;
         letter-spacing: 3px;
         padding-top: 0px;
-        margin-top: 100px;
-        margin-bottom: 70px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
     .quick-message {
         height: 0.01vh;
         font-size: 1px;
         visibility: hidden;
+        width: 0.5px;
     }
 
     form {
         height: 0.01px;
+        width: 1px;
         font-size: 0.5px;
         visibility: hidden;
       

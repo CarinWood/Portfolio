@@ -30,7 +30,7 @@ const Projects = () => {
           <p className="sub">
             Html, CSS, JavaScript
           </p>
-          <a href="https://github.com/CarinWood/Japanbloggen" target="_blank">
+          <a href="https://carinwood.netlify.app/" target="_blank">
             <button className="view-button">View</button>
           </a>
         </div>

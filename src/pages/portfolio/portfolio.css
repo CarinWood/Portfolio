@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    position: relative;
+
 }
 
 .portfolio-headline {
@@ -176,15 +176,17 @@
 
 @media (max-width: 500px) {
     .projects-container {
-        height: 160vh;
+        height: 148vh;
+        max-width: 99%;
+        justify-content: flex-start;
     }
 
     .portfolio-headline {
         font-size: 70px;
         letter-spacing: 3px;
         padding-top: 0px;
-        margin-top: 60px;
-        margin-bottom: 40px;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
 
     .first-row {
@@ -202,7 +204,7 @@
         color: whitesmoke;
         font-family: 'Montserrat';
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
         margin-top: 20px;
     }
@@ -210,7 +212,7 @@
     .view-button {
         border: 1px solid var(--primary-color);
         border-radius: 5px;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 500;
         padding: 8px;
         margin-top: 20px;
@@ -229,7 +231,7 @@
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 3px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
      }
 
     .box2 {
@@ -243,7 +245,7 @@
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 3px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
      }
 
     .box3 {
