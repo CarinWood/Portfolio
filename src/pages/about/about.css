@@ -239,7 +239,7 @@
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 500px) {
     .about-wrapper {
         width: 99%;
         height: 100vh;
@@ -249,7 +249,7 @@
         font-size: 70px;
         letter-spacing: 3px;
         padding-top: 0px;
-        margin-top: -180px;
+        margin-top: -250px;
         margin-bottom: 80px;
     }
 
@@ -270,11 +270,11 @@
 .work-together {
     visibility: visible;
     position: absolute;
-    bottom: 320%;
-    left: 50%;
+    bottom: 12%;
     font-size: 16px;
     width: 200px;
     margin-left: -100px;
+    height: 50px;
 }
 
 .about-text {

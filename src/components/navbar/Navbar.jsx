@@ -4,11 +4,6 @@ import Socials from '../socials/Socials';
 import { useState } from 'react';
 
 
-
-
-
-
-
 export const Navbar = () => {
 
 const [navbar, setNavbar] = useState(false)

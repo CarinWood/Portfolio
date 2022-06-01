@@ -174,9 +174,9 @@
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 500px) {
     .projects-container {
-        height: 150vh;
+        height: 160vh;
     }
 
     .portfolio-headline {
@@ -213,7 +213,7 @@
         font-size: 19px;
         font-weight: 500;
         padding: 8px;
-        margin-top: 13px;
+        margin-top: 20px;
         width: 100px; 
         margin-bottom: 25px;
     }
@@ -229,7 +229,7 @@
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 3px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
      }
 
     .box2 {
@@ -243,7 +243,7 @@
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 3px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
      }
 
     .box3 {
@@ -262,6 +262,11 @@
      .divider {
          height: 0.001vh;
          visibility: hidden;
+     }
+
+     .japan-icon, .fashion-icon, .todo-icon {
+         margin-top: -7px;
+         margin-bottom: 7px;
      }
 
      

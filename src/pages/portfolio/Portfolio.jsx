@@ -30,21 +30,27 @@ const Projects = () => {
           <p className="sub">
             Html, CSS, JavaScript
           </p>
-          <button className="view-button">View</button>
+          <a href="https://github.com/CarinWood/Japanbloggen" target="_blank">
+            <button className="view-button">View</button>
+          </a>
         </div>
         <div className="divider"></div>
         <div className="box2">
           <h1 className="project-title">Fashion Store</h1>
           <GiAmpleDress className="fashion-icon"/>
           <p className="sub">React, JavaScript</p>
+          <a href="https://github.com/CarinWood/fashion-store" target="_blank">
           <button className="view-button">View</button>
+          </a>
         </div>
         <div className="divider"></div>
         <div className="box3">
-          <h1 className="project-title">Todo list</h1>
+          <h1 className="project-title">BookFaze</h1>
           <RiTodoLine className="todo-icon"/>
-          <p className="sub">React, TypeScript</p>
+          <p className="sub">React.ts, MongoDB</p>
+          <a href="https://github.com/CarinWood/BookFaze-project" target="_blank">
           <button className="view-button">View</button>
+          </a>
         </div>
       </section>
     </div>

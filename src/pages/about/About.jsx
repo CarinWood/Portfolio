@@ -47,14 +47,10 @@ const About = () => {
               <br/>
               </span>
               { makeItShake &&
-              <Link to="contact" 
-                spy={true} 
-                smooth="true"
-                offset={0} 
-                duration={500} 
-                className='list-item shakeme'
-                ><button className="work-together shakeme">To my resume / CV</button> 
-                </Link>} 
+                <a href="https://storied-lokum-52a0ff.netlify.app" target="_blank">
+                <button className="work-together shakeme">To my resume / CV</button> 
+                </a>
+              }
             </p>        
       
       </div>

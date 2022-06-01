@@ -238,7 +238,7 @@
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 500px) {
 
     .youtube-div, .email-div {
         margin-left: 60px;

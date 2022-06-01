@@ -78,6 +78,8 @@
         position: fixed;
         top: -10%;
         background-color: black;
+        justify-content: flex-start;
+        padding-top: 150px;
         height: 90vh;
         width: 100%;
         z-index: 99;
@@ -86,17 +88,22 @@
    
 }
 
-@media (max-width: 811) {
-    
-}
-
 @media (max-width: 415px) {
     .menu {
         font-size: 32px;
+        position: fixed;
+        top: 5%;
+        right: 5%;
+        z-index: 100;  
+        font-size: 40px; 
+        cursor: pointer; 
+        filter: brightness(0) invert(1);
+        transform: translate(-5%, -50%);
     }
 
     .mobile-link {
         font-size: 18px;
-        margin-top: 60px;
+        margin-top: 80px;
+        letter-spacing: 2px;
     }
 }
