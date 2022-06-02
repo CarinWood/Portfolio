@@ -39,7 +39,7 @@ const Projects = () => {
           <h1 className="project-title">Fashion Store</h1>
           <GiAmpleDress className="fashion-icon"/>
           <p className="sub">React, JavaScript</p>
-          <a href="https://github.com/CarinWood/fashion-store" target="_blank">
+          <a href="https://fashion-eshop.netlify.app/" target="_blank">
           <button className="view-button">View</button>
           </a>
         </div>
