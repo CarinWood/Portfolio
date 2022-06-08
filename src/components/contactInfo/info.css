@@ -206,10 +206,36 @@
 }
 
 @media (max-width: 500px) {
+    .contact-icons {
+        width: 99%;
+    }
+
+    .top-row, .bottom-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email-div, .linkedin-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .youtube-text, .linkedin-text, .github-text, .email-text {
+        width: 40%;
+        align-items: center;
+    }
 
 
     .youtube-div, .email-div {
-        margin-left: 60px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     ._headline::after {
