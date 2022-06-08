@@ -25,23 +25,23 @@ const Projects = () => {
       <h1 className="portfolio-headline">Portfolio</h1>
       <section className="first-row">
         <div className="box1">
-          <h1 className="project-title">Japan Blog</h1>
-          <GiJapaneseBridge className="japan-icon"/>
-          <p className="sub">
-            Html, CSS, JavaScript
-          </p>
-          <a href="https://carinwood.netlify.app/" target="_blank">
-            <button className="view-button">View</button>
+        <h1 className="project-title">Fashion Store</h1>
+          <GiAmpleDress className="fashion-icon"/>
+          <p className="sub">React, JavaScript</p>
+          <a href="https://clothes4you.netlify.app/" target="_blank">
+          <button className="view-button">View</button>
           </a>
         </div>
         <div className="divider"></div>
         <div className="box2">
-          <h1 className="project-title">Fashion Store</h1>
-          <GiAmpleDress className="fashion-icon"/>
-          <p className="sub">React, JavaScript</p>
-          <a href="https://fashion-eshop.netlify.app/" target="_blank">
-          <button className="view-button">View</button>
-          </a>
+        <h1 className="project-title">Japan Blog</h1>
+          <GiJapaneseBridge className="japan-icon"/>
+          <p className="sub">
+            Html, CSS, JavaScript
+          </p>
+            <a href="https://carinwood.netlify.app/" target="_blank">
+              <button className="view-button">View</button>
+            </a>
         </div>
         <div className="divider"></div>
         <div className="box3">

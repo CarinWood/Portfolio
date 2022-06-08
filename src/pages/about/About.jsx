@@ -47,7 +47,7 @@ const About = () => {
               <br/>
               </span>
               { makeItShake &&
-                <a href="https://storied-lokum-52a0ff.netlify.app" target="_blank">
+                <a href="https://carinwood-eng-cv.netlify.app/" target="_blank">
                 <button className="work-together shakeme">To my resume / CV</button> 
                 </a>
               }
