@@ -274,11 +274,13 @@
 .work-together {
     visibility: visible;
     position: absolute;
-    bottom: 13%;
     font-size: 16px;
     width: 200px;
     margin-left: -100px;
     height: 50px;
+    position: absolute;
+    bottom: -110%;
+
 }
 
 .about-text {
@@ -294,10 +296,19 @@
     left: 51%;
     margin-left: -150px;
     top: 0;
+    height: 31vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 150px;
 }
 
 .responsive-text {
     visibility: hidden;
+    font-size: 0px;
+    height: 1px;
+    width: 1px;
 }
 
 

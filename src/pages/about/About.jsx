@@ -34,18 +34,19 @@ const About = () => {
             <img className="profile-image" src={profilepic} alt="" />      
             <p className="about-text">
               I'm a full stack developer located in Gothenburg, Sweden. 
-              I design and build web sites using Javascript and Typescript. 
+              I design and build web sites using Javascript and Typescript.
               <br/>
               <br/>
-              I've always been someone who has both a creative and a logical side. 
+              <span className="responsive-text">I've always been someone who has both a creative and a logical side. 
               When I discovered web development, I realized it would be the perfect fit for me. 
               I can use my creative side to design and my logical side to code.
               <br/>
               <br/>
-              <span className="responsive-text">I'm interested in the entire full stack spectrum and would love to work on ambitious projects together with positive people.
+              </span>
+              I'm interested in the entire full stack spectrum and would love to work on ambitious projects together with positive people.
               <br/> 
               <br/>
-              </span>
+            
               { makeItShake &&
                 <a href="https://carinwood-eng-cv.netlify.app/" target="_blank">
                 <button className="work-together shakeme">To my resume / CV</button> 

@@ -1,6 +1,7 @@
 import "./portfolio.css"
 import { GiJapaneseBridge, GiAmpleDress } from "react-icons/gi";
 import { RiTodoLine } from "react-icons/ri";
+import { FaPizzaSlice } from "react-icons/fa";
 import { useState } from "react";
 
 
@@ -34,12 +35,12 @@ const Projects = () => {
         </div>
         <div className="divider"></div>
         <div className="box2">
-        <h1 className="project-title">Japan Blog</h1>
-          <GiJapaneseBridge className="japan-icon"/>
+        <h1 className="project-title">Pizza Shop</h1>
+          <FaPizzaSlice className="japan-icon"/>
           <p className="sub">
-            Html, CSS, JavaScript
+            React, JavaScript
           </p>
-            <a href="https://carinwood.netlify.app/" target="_blank">
+            <a href="https://carins-pizza-shop.netlify.app/" target="_blank">
               <button className="view-button">View</button>
             </a>
         </div>

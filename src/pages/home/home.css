@@ -134,25 +134,6 @@ header {
     }
 }
 
-
-/* @media (max-width: 604px) {
-    .header-box {
-        margin-top: 0px;
-    }
-
-    .header-box {
-        margin-top: 170px;
-    }
-
-    .headline {
-        font-size: 70px;
-    }
-
-    .hello, .subtext {
-        font-size: 12px;
-    } 
-} */
-
 @media (max-width: 500px) {
     #home {
         max-width: 100%;

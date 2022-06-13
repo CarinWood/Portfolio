@@ -36,7 +36,7 @@ const MobileNav = () => {
                 to="about" 
                 spy={true} 
                 smooth="true"
-                offset={0} 
+                offset={60} 
                 duration={500} 
                 className='list-item'
                 > About 
@@ -60,7 +60,7 @@ const MobileNav = () => {
                 to="contact" 
                 spy={true} 
                 smooth="true"
-                offset={0} 
+                offset={50} 
                 duration={500} 
                 className='list-item'
                 > Contact 
