@@ -1,6 +1,6 @@
 import "./portfolio.css"
 import { GiJapaneseBridge, GiAmpleDress } from "react-icons/gi";
-import { RiTodoLine } from "react-icons/ri";
+import { GiEightBall } from "react-icons/gi";
 import { FaPizzaSlice } from "react-icons/fa";
 import { useState } from "react";
 
@@ -46,10 +46,10 @@ const Projects = () => {
         </div>
         <div className="divider"></div>
         <div className="box3">
-          <h1 className="project-title">BookFaze</h1>
-          <RiTodoLine className="todo-icon"/>
-          <p className="sub">React.ts, MongoDB</p>
-          <a href="https://github.com/CarinWood/BookFaze-project" target="_blank">
+          <h1 className="project-title">Magic 8-ball</h1>
+          <GiEightBall className="todo-icon"/>
+          <p className="sub">React, TypeScript</p>
+          <a href="https://magic-8-ball-carinwood.netlify.app/" target="_blank">
           <button className="view-button">View</button>
           </a>
         </div>
