@@ -48,7 +48,7 @@ window.addEventListener('scroll', changeBackground)
                 offset={0} 
                 duration={500} 
                 className='list-item'
-                > Portfolio </Link>
+                > Projects </Link>
                 </li>
               <li>
                 <Link to="contact" 
